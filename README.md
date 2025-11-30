@@ -25,28 +25,28 @@ data, and monitoring communication in real time.
 
 Supports sending data using: - **Write** - **WriteLine**
 
-Send modes: - Send button\
-- Automatically on **Enter** key\
-- Clear outgoing message\
+Send modes: - Send button
+- Automatically on **Enter** key
+- Clear outgoing message
 - Message length counter
 
 ------------------------------------------------------------------------
 
 ### 📥 Receiving Data
 
--   Displays received data in real time\
--   Shows the length of incoming messages\
+-   Displays received data in real time
+-   Shows the length of incoming messages
 -   Two display modes:
     -   **Always Update** (overwrite incoming data)
-    -   **Add to Old Data** (append data)\
+    -   **Add to Old Data** (append data)
 -   Clear received data
 
 ------------------------------------------------------------------------
 
 ### 📊 Additional UI Features
 
--   Connection progress bar\
--   Connection status: **ON/OFF**\
+-   Connection progress bar
+-   Connection status: **ON/OFF**
 -   Error handling for invalid COM settings
 
 ------------------------------------------------------------------------
@@ -64,7 +64,7 @@ Send modes: - Send button\
 
 3.  Ensure you have:
 
-    -   .NET Framework compatible with the project\
+    -   .NET Framework compatible with the project
     -   `System.IO.Ports` available
 
 4.  Start the application (F5).
@@ -84,32 +84,23 @@ Send modes: - Send button\
 
 ## Usage
 
-1.  Connect your device via USB/RS-232.\
-2.  Launch the application.\
-3.  Choose a COM port and configure communication settings.\
-4.  Click **Open** to establish a connection.\
-5.  Send messages via button or Enter key.\
+1.  Connect your device via USB/RS-232.
+2.  Launch the application.
+3.  Choose a COM port and configure communication settings.
+4.  Click **Open** to establish a connection.
+5.  Send messages via button or Enter key.
 6.  View received data in the reception window.
 
 ------------------------------------------------------------------------
 
 ## Known Limitations
 
--   No advanced protocol support (e.g., Modbus, CAN).\
--   Text-only communication.\
+-   No advanced protocol support (e.g., Modbus, CAN).
+-   Text-only communication.
 -   No built-in logging (can be added in future).
 
 ------------------------------------------------------------------------
 
-## Future Improvements
-
--   Logging to text/CSV files\
--   HEX mode for sending/receiving\
--   Auto-send at intervals\
--   Dark mode\
--   Multi-port support
-
-------------------------------------------------------------------------
 
 ## License
 
